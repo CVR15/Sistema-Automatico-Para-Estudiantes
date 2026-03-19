@@ -17,6 +17,9 @@ Arquitectura de datos escalable diseñada para gestionar +3,000 registros de est
 * **Entorno:** Google Workspace API / Triggers basados en tiempo
 
 ## 📁 Estructura del Repositorio
-* `.gs`: Lógica central para el estatus de registro de alumnos y alertas por correo.
-* `.gs`: Funciones para la unión de bases de datos externas y limpieza de información.
-* `.gs`: Script optimizado de `onEdit` para la gestión visual de niveles y estados.
+* `MENU.gs`: Menu central ejecutado al abrir el proyecto y funciones adicionales de normalización de texto.
+* `PUSH-PULL 2.gs`: Script central para la vinculación del sistema maestro con las listas individualizadas de +30 mentores garantizando la integridad de los datos mediante un sistema PUSH-PULL con archivo historico de estudiantes traspasados.
+* `FORMS-STATUS.gs`: Lógica central para el estatus de registro de alumnos y alertas por correo.
+* `LISTA-FORMS.gs`: Funciones para la unión de bases de datos externas y limpieza de información.
+* `FORMATO CONDICIONAL.gs`: Script optimizado de `onEdit` para la gestión visual de niveles y estados.
+* `COPIA DE SEGURIDAD.gs`: Creación de un copias de seguridad estaticas periodicas del documento master.
